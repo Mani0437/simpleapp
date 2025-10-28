@@ -4,7 +4,7 @@ const express = require('express');
 const os = require('os');
 
 // Constants
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8083;
 const HOST = '0.0.0.0';
 
 const version = '2.0';
@@ -26,4 +26,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, HOST);
+
 console.log(`Running version ${version} on http://${HOST}:${PORT}`);
