@@ -8,7 +8,7 @@ pipeline {
     environment {
         APP_NAME = "node-app"
         DOCKER_IMAGE = "${APP_NAME}:latest"
-        CONTAINER_PORT = "3000"
+        CONTAINER_PORT = "8083"
     }
 
     stages {
